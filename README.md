@@ -6,7 +6,7 @@ modular implementation of the `OSGi 4.2 Remote Services` standard, along with su
 remote services, and asynchronous messaging for remote services. 
 
 This project contains some examples for ECF. This examples demos how use RemoteServices API, REST-based services, Datashare
-ans SharedObject APIs and XMPP protocol. More info you can see on my blog: http://samolisov.blogspot.com (on Russian).
+ans SharedObject APIs and XMPP protocol. More info you can see on my blog: (http://samolisov.blogspot.com) (on Russian).
 
 Examples Set contains:
 
