@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ecf.presence.bot.imRobot">
+      <imRobot
+            connectId="JABBER-ID"
+            connectPassword="JABBER-PASSWORD"
+            containerFactoryName="ecf.xmpp.smack"
+            id="org.eclipse.ecf.examples.bot.habr.habraRobot"
+            name="HabraRobot">
+      </imRobot>
+   </extension>
+   <extension
+         point="org.eclipse.ecf.presence.bot.imMessageHandler">
+      <handler
+            class="org.eclipse.ecf.examples.bot.habr.handler.HabrKarmaMessageHandler"
+            filterExpression="~karma \w+"
+            imRobotId="org.ecipse.ecf.examples.bot.habr.habraRobot">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ecf.presence.bot.imMessageHandler">
+      <handler
+            class="org.eclipse.ecf.examples.bot.habr.handler.HabrPowerMessageHandler"
+            filterExpression="~power \w+"
+            imRobotId="org.eclipse.ecf.examples.bot.habr.habraRobot">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ecf.presence.bot.imMessageHandler">
+      <handler
+            class="org.eclipse.ecf.examples.bot.habr.handler.HabrRatingMessageHandler"
+            filterExpression="~rating \w+"
+            imRobotId="org.eclipse.ecf.examples.bot.habr.habraRobot">
+      </handler>
+   </extension>
+</plugin>

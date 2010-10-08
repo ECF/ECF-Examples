@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello
+Bundle-SymbolicName: org.eclipse.ecf.examples.remoteservices.hello
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.eclipse.ecf.examples.remoteservices.hello
+Bundle-Vendor: Pavel Samolisov

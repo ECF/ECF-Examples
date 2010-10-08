@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Habrahabr bot
+Bundle-SymbolicName: org.eclipse.ecf.examples.bot.habr;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Pavel Samolisov
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ecf.presence.bot,
+ org.eclipse.ecf;bundle-version="3.0.0",
+ org.eclipse.ecf.presence;bundle-version="2.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

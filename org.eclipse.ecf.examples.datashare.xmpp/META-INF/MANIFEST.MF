@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Xmpp
+Bundle-SymbolicName: org.eclipse.ecf.examples.datashare.xmpp
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.ecf.examples.datashare.xmpp.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.ecf.core;version="3.0.0",
+ org.eclipse.ecf.core.identity;version="3.0.0",
+ org.eclipse.ecf.core.security,
+ org.eclipse.ecf.datashare,
+ org.eclipse.ecf.datashare.events,
+ org.osgi.framework;version="1.3.0"
+Require-Bundle: org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.ecf
+Bundle-Vendor: Pavel Samolisov

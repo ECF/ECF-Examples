@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<booleanAttribute key="append.args" value="true"/>
+<stringAttribute key="application" value="org.eclipse.ecf.presence.bot.imRobot"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<booleanAttribute key="automaticValidate" value="false"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="false"/>
+<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="clearwslog" value="false"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/Jabber HabraBot"/>
+<booleanAttribute key="default" value="false"/>
+<booleanAttribute key="includeOptional" value="false"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-New_configuration"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-server -Dosgi.requiredJavaVersion=1.6 -Xms256m -Xmx1024m -XX:MaxPermSize=256m -XX:+AggressiveOpts -XX:-UseParallelGC -XX:+UseConcMarkSweepGC"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="product" value="org.eclipse.platform.ide"/>
+<stringAttribute key="selected_target_plugins" value="org.eclipse.equinox.preferences@default:default,org.eclipse.equinox.app@default:default,org.eclipse.equinox.registry@default:default,org.eclipse.core.runtime@default:true,org.eclipse.equinox.common@2:true,org.eclipse.osgi.services@default:default,org.eclipse.equinox.concurrent@default:default,org.eclipse.core.contenttype@default:default,org.eclipse.core.jobs@default:default,org.eclipse.core.runtime.compatibility.registry@default:false,org.eclipse.osgi@-1:true"/>
+<stringAttribute key="selected_workspace_plugins" value="org.eclipse.ecf.examples.bot.habr@default:default"/>
+<booleanAttribute key="show_selected_only" value="true"/>
+<stringAttribute key="templateConfig" value="${target_home}\configuration\config.ini"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfig" value="true"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<booleanAttribute key="useProduct" value="false"/>
+</launchConfiguration>

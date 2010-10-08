@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GenericServerPlugin
+Bundle-SymbolicName: org.eclipse.ecf.examples.generic.server;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.ecf.examples.generic.server.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ecf.server.generic,
+ org.eclipse.ecf
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Pavel Samolisov
