@@ -18,7 +18,7 @@ own jabber ids/passwords
 
 * `o.e.e.e.generic.server` -- Provides an instance of ECF Generic Server
 
-* `o.e.e.e.hello` -- Provedes IHello interface which uses in Remote Services Examples
+* `o.e.e.e.remoteservices.hello` -- Provedes IHello interface which uses in Remote Services Examples
 
 * `o.e.e.e.remoteservices.generic.host/client` -- Remote Services Host/Client via ECF Generic Server
 
