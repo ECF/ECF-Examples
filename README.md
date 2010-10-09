@@ -13,6 +13,9 @@ Examples Set contains:
 * `o.e.e.e.bot.habr` -- Jabber Bot for [Habrahabr](http://habrahabr.ru). You should change JABBER-ID and JABBER-PASSWORD in 
 the `plugin.xml` on your own jabber id/password.
 
+* `o.e.e.e.bot.habr.oscar` -- ICQ Bot for [Habrahabr](http://habrahabr.ru). You should change ICQ-UIN and ICQ-PASSWORD in
+the `plugin.xml` on your own ICQ UIN/password.
+
 * `o.e.e.e.datashare.*` -- Datashare API examples (Server and Client). You should change JABBER-* in Launch configs to your
 own jabber ids/passwords
 
@@ -35,3 +38,5 @@ for SLP/Zeroconf/Zookeeper discovery providers demo.
 * `o.e.e.e.sharedobject.*` -- SharedObject API Example. The `*.xml` bundles uses XStream for serialize/deserialize SharedObject
 to/from XML.
 
+* `o.e.e.e.sharedobject.oscar.*` --- SharedObject API via ICQ Example. You should change ICQ-UINs/ICQ-PASSWORDs in the
+activators on your own ICQ UINs/passwords.
