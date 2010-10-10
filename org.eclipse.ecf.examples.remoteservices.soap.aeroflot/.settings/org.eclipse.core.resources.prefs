@@ -1,0 +1,11 @@
+#Sat Apr 24 09:58:03 YEKST 2010
+eclipse.preferences.version=1
+encoding//src/ru/aeroflot/www/Airport.java=UTF-8
+encoding//src/ru/aeroflot/www/Flight.java=UTF-8
+encoding//src/ru/aeroflot/www/FlightDetail.java=UTF-8
+encoding//src/ru/aeroflot/www/FlightShort.java=UTF-8
+encoding//src/ru/aeroflot/www/FlightStatus.java=UTF-8
+encoding//src/ru/aeroflot/www/FlightStatusLocator.java=UTF-8
+encoding//src/ru/aeroflot/www/FlightStatusSoap.java=UTF-8
+encoding//src/ru/aeroflot/www/FlightStatusSoap12Stub.java=UTF-8
+encoding//src/ru/aeroflot/www/FlightStatusSoapStub.java=UTF-8
