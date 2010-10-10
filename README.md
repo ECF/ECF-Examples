@@ -32,6 +32,11 @@ Java objects from XML
 
 * `o.e.e.e.remoteservices.rosgi.*` -- Remote Services Host/Client via R-OSGi
 
+* `o.e.e.e.remoteservices.soap.aeroflot` -- SOAP API Example. Just client for Aeroflot webservices. Aeroflot is the main
+Russian airline.
+
+* `o.e.e.e.remoteservices.soap.aeroflot.test` -- Test bundle for the Aeroflot webservices client.
+
 * `o.e.e.e.rosgi.*` -- OSGi 4.2 Remote Services Host/Client via R-OSGi. This bundles contains Launch configs
 for SLP/Zeroconf/Zookeeper discovery providers demo.
 
