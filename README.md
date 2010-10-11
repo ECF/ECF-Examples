@@ -45,3 +45,4 @@ to/from XML.
 
 * `o.e.e.e.sharedobject.oscar.*` --- SharedObject API via ICQ Example. You should change ICQ-UINs/ICQ-PASSWORDs in the
 activators on your own ICQ UINs/passwords.
+
