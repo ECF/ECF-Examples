@@ -1,4 +1,4 @@
-package org.eclipse.ecf.examples.bot.habr.handler;
+package org.eclipse.ecf.examples.bot.habr.xmpp.handler;
 
 public class UserCommandMessage
 {

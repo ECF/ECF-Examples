@@ -1,11 +1,11 @@
-package org.eclipse.ecf.examples.bot.habr.fetcher;
+package org.eclipse.ecf.examples.bot.habr.xmpp.fetcher;
 
 import java.io.IOException;
 import java.text.MessageFormat;
 
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.GetInfoException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.UserNotFoundException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.parser.HabraApiParser;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.GetInfoException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.UserNotFoundException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.parser.HabraApiParser;
 
 
 public abstract class BasicHabraApiFetcher implements IHabraApiFetcher

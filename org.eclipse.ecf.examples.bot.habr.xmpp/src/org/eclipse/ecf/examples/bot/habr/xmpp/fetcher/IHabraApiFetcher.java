@@ -1,7 +1,7 @@
-package org.eclipse.ecf.examples.bot.habr.fetcher;
+package org.eclipse.ecf.examples.bot.habr.xmpp.fetcher;
 
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.GetInfoException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.UserNotFoundException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.GetInfoException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.UserNotFoundException;
 
 public interface IHabraApiFetcher
 {

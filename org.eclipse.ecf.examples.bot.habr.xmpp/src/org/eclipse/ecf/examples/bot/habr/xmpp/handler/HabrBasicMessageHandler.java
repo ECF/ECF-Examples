@@ -1,4 +1,4 @@
-package org.eclipse.ecf.examples.bot.habr.handler;
+package org.eclipse.ecf.examples.bot.habr.xmpp.handler;
 
 import java.text.MessageFormat;
 
@@ -6,11 +6,11 @@ import java.text.MessageFormat;
 import org.eclipse.ecf.core.IContainer;
 import org.eclipse.ecf.core.identity.ID;
 import org.eclipse.ecf.core.util.ECFException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.HabraApiEntity;
-import org.eclipse.ecf.examples.bot.habr.fetcher.IHabraApiFetcher;
-import org.eclipse.ecf.examples.bot.habr.fetcher.UrlClientHabraApiFetcher;
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.GetInfoException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.UserNotFoundException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.HabraApiEntity;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.IHabraApiFetcher;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.UrlClientHabraApiFetcher;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.GetInfoException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.UserNotFoundException;
 import org.eclipse.ecf.presence.IPresenceContainerAdapter;
 import org.eclipse.ecf.presence.bot.IIMBotEntry;
 import org.eclipse.ecf.presence.bot.IIMMessageHandler;

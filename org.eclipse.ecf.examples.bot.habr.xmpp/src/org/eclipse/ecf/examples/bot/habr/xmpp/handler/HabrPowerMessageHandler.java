@@ -1,7 +1,7 @@
-package org.eclipse.ecf.examples.bot.habr.handler;
+package org.eclipse.ecf.examples.bot.habr.xmpp.handler;
 
 
-import org.eclipse.ecf.examples.bot.habr.fetcher.HabraApiEntity;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.HabraApiEntity;
 import org.eclipse.ecf.presence.im.IChatMessage;
 
 public class HabrPowerMessageHandler extends HabrBasicMessageHandler

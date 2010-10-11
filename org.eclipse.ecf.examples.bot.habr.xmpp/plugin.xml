@@ -14,7 +14,7 @@
    <extension
          point="org.eclipse.ecf.presence.bot.imMessageHandler">
       <handler
-            class="org.eclipse.ecf.examples.bot.habr.handler.HabrKarmaMessageHandler"
+            class="org.eclipse.ecf.examples.bot.habr.xmpp.handler.HabrKarmaMessageHandler"
             filterExpression="~karma \w+"
             imRobotId="org.ecipse.ecf.examples.bot.habr.habraRobot">
       </handler>
@@ -22,7 +22,7 @@
    <extension
          point="org.eclipse.ecf.presence.bot.imMessageHandler">
       <handler
-            class="org.eclipse.ecf.examples.bot.habr.handler.HabrPowerMessageHandler"
+            class="org.eclipse.ecf.examples.bot.habr.xmpp.handler.HabrPowerMessageHandler"
             filterExpression="~power \w+"
             imRobotId="org.eclipse.ecf.examples.bot.habr.habraRobot">
       </handler>
@@ -30,7 +30,7 @@
    <extension
          point="org.eclipse.ecf.presence.bot.imMessageHandler">
       <handler
-            class="org.eclipse.ecf.examples.bot.habr.handler.HabrRatingMessageHandler"
+            class="org.eclipse.ecf.examples.bot.habr.xmpp.handler.HabrRatingMessageHandler"
             filterExpression="~rating \w+"
             imRobotId="org.eclipse.ecf.examples.bot.habr.habraRobot">
       </handler>

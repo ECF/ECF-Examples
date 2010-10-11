@@ -1,4 +1,4 @@
-package org.eclipse.ecf.examples.bot.habr.fetcher;
+package org.eclipse.ecf.examples.bot.habr.xmpp.fetcher;
 
 public class HabraApiEntity
 {

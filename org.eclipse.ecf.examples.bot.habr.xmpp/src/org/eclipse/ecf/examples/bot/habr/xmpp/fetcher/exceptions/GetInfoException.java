@@ -1,4 +1,4 @@
-package org.eclipse.ecf.examples.bot.habr.fetcher.exceptions;
+package org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions;
 
 public class GetInfoException extends Exception
 {

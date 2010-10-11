@@ -1,4 +1,4 @@
-package org.eclipse.ecf.examples.bot.habr.fetcher;
+package org.eclipse.ecf.examples.bot.habr.xmpp.fetcher;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,9 +6,9 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.GetInfoException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.UserNotFoundException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.parser.HabraApiParser;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.GetInfoException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.UserNotFoundException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.parser.HabraApiParser;
 
 
 public class UrlClientHabraApiFetcher extends BasicHabraApiFetcher

@@ -10,7 +10,7 @@ ans SharedObject APIs and XMPP protocol. More info you can see on my blog: [http
 
 Examples Set contains:
 
-* `o.e.e.e.bot.habr` -- Jabber Bot for [Habrahabr](http://habrahabr.ru). You should change JABBER-ID and JABBER-PASSWORD in 
+* `o.e.e.e.bot.habr.xmpp` -- Jabber Bot for [Habrahabr](http://habrahabr.ru). You should change JABBER-ID and JABBER-PASSWORD in 
 the `plugin.xml` on your own jabber id/password.
 
 * `o.e.e.e.bot.habr.oscar` -- ICQ Bot for [Habrahabr](http://habrahabr.ru). You should change ICQ-UIN and ICQ-PASSWORD in

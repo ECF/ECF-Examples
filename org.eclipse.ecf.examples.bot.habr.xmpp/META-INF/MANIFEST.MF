@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Habrahabr bot
-Bundle-SymbolicName: org.eclipse.ecf.examples.bot.habr;singleton:=true
+Bundle-SymbolicName: org.eclipse.ecf.examples.bot.habr.xmpp;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Pavel Samolisov
 Require-Bundle: org.eclipse.core.runtime,

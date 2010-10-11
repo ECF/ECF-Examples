@@ -1,4 +1,4 @@
-package org.eclipse.ecf.examples.bot.habr.fetcher.parser;
+package org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.parser;
 
 import java.io.ByteArrayInputStream;
 
@@ -6,9 +6,9 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 
-import org.eclipse.ecf.examples.bot.habr.fetcher.HabraApiEntity;
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.GetInfoException;
-import org.eclipse.ecf.examples.bot.habr.fetcher.exceptions.UserNotFoundException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.HabraApiEntity;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.GetInfoException;
+import org.eclipse.ecf.examples.bot.habr.xmpp.fetcher.exceptions.UserNotFoundException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
