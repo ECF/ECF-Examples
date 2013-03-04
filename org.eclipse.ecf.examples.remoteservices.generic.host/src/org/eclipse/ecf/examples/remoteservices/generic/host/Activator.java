@@ -6,7 +6,7 @@ import org.eclipse.ecf.core.IContainerManager;
 import org.eclipse.ecf.core.identity.ID;
 import org.eclipse.ecf.core.identity.IDFactory;
 import org.eclipse.ecf.examples.remoteservices.hello.IHello;
-import org.eclipse.ecf.examples.remoteservices.hello.SimpleHello;
+import org.eclipse.ecf.examples.remoteservices.hello.impl.Hello;
 import org.eclipse.ecf.remoteservice.IRemoteServiceContainerAdapter;
 import org.eclipse.ecf.remoteservice.IRemoteServiceRegistration;
 import org.osgi.framework.BundleActivator;
@@ -42,7 +42,7 @@ public class Activator implements BundleActivator
 
 		// Register remote service
 		_serviceRegistration = containerAdapter.registerRemoteService(new String[] {IHello.class.getName()},
-				new SimpleHello(), null);
+				new Hello(), null);
 
 		System.out.println("IHello RemoteService registered");
 	}

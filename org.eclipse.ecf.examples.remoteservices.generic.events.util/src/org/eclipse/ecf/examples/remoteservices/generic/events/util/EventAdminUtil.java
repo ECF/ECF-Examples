@@ -1,5 +1,6 @@
 package org.eclipse.ecf.examples.remoteservices.generic.events.util;
 
+import java.util.Dictionary;
 import java.util.Properties;
 
 import org.eclipse.ecf.core.IContainer;
@@ -42,7 +43,7 @@ public class EventAdminUtil
 	{
 		Properties props = new Properties();
 		props.put(EventConstants.EVENT_TOPIC, topics);
-		return context.registerService(EventAdmin.class.getName(), eventAdmin, props);
+		return context.registerService(EventAdmin.class.getName(), eventAdmin, (Dictionary) props);
 	}
 
 	private static ISharedObjectContainer getSharedObjectContainer(IContainer container)

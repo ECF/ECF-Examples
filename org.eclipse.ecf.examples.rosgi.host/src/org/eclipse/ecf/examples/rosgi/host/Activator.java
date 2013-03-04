@@ -1,11 +1,12 @@
 package org.eclipse.ecf.examples.rosgi.host;
 
+import java.util.Dictionary;
 import java.util.Properties;
 
 
 import org.eclipse.ecf.core.IContainerManager;
 import org.eclipse.ecf.examples.remoteservices.hello.IHello;
-import org.eclipse.ecf.examples.remoteservices.hello.SimpleHello;
+import org.eclipse.ecf.examples.remoteservices.hello.impl.Hello;
 import org.eclipse.ecf.osgi.services.distribution.IDistributionConstants;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
@@ -40,7 +41,7 @@ public class Activator implements BundleActivator, IDistributionConstants
 		props.put(IDistributionConstants.SERVICE_EXPORTED_CONFIGS,
 				R_OSGI_CONTAINER_TYPE);
 		
-		_helloRegistration = context.registerService(IHello.class.getName(), new SimpleHello(), props);
+		_helloRegistration = context.registerService(IHello.class.getName(), new Hello(), (Dictionary) props);
 		System.out.println("Hello Service has been registered");
 	}
 

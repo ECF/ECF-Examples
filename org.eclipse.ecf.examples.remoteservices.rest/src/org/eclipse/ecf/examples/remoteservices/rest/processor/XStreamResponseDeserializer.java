@@ -27,9 +27,9 @@ public class XStreamResponseDeserializer implements IRemoteResponseDeserializer
 	@Override
 	@SuppressWarnings("rawtypes")	
 	public Object deserializeResponse(String endpoint, IRemoteCall call,
-			IRemoteCallable callable, Map responseHeaders, String responseBody)
+			IRemoteCallable callable, Map responseHeaders, byte[] responseBody)
 				throws NotSerializableException 
 	{
-		return _stream.fromXML(responseBody);
+		return _stream.fromXML(new String(responseBody));
 	}
 }

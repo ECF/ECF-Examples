@@ -9,6 +9,7 @@
 package org.eclipse.ecf.examples.remoteservices.soap.aeroflot;
 
 import org.eclipse.ecf.remoteservice.IRemoteService;
+import org.eclipse.ecf.remoteservice.IRemoteServiceCallPolicy;
 import org.eclipse.ecf.remoteservice.client.IRemoteCallable;
 import org.eclipse.ecf.remoteservice.client.RemoteServiceClientRegistration;
 import org.eclipse.ecf.remoteservice.soap.client.AbstractSoapClientContainer;
@@ -44,4 +45,10 @@ public class AeroflotSoapClientContainer extends AbstractSoapClientContainer
         // Return our service
         return new AeroflotSoapClientService(this, registration);
     }
+
+	@Override
+	public boolean setRemoteServiceCallPolicy(IRemoteServiceCallPolicy policy) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
